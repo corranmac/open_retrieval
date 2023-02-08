@@ -1,4 +1,4 @@
-# `Open Retrieval`
+# Open Retrieval
 
 Retrieve semantically close text embeddings using a prebuilt FAISS index and retrieval model from HF transformers.
 
