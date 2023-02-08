@@ -1,9 +1,22 @@
 # `Open Retrieval`
 
-Retrieve semantically close text embeddings using a prebuilt FAISS index and retrieval model from HF transformers
+Retrieve semantically close text embeddings using a prebuilt FAISS index and retrieval model from HF transformers.
 
+Query the faiss index and optionally retrieve metadata from a parquet via a pandas. 
 
-Variables:
+## Requirements
+faiss
+transformers
+pandas
+numpy
+
+## Get Started
+Use the command line:
+!python main.py -h
+
+or see test.py
+
+## Parameters:
 
 query: A string that represents the query for retrieval. The default value is "Who was the last man on the moon?". The query argument is optional and is used to specify the query text.
 
