@@ -11,14 +11,14 @@ pandas
 numpy
 
 ## Get Started
-Use the command line:
+Method 1. 
+Use the command line (Requires reloading index each time):
 !python main.py -h
 
-or see test.py
+Method 2. 
+Load each component, see tests/test.py
 
 ## Parameters:
-
-
 
 index_path (Required) : A string that represents the path to a faiss index containing the items for retrieval. This argument is required and is used to specify the location of the index.
 
