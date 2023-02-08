@@ -11,6 +11,9 @@ pandas
 numpy
 
 ## Get Started
+
+%cd open_retrieval
+
 Method 1. 
 Use the command line (Requires loading data and models every time):
 !python main.py -h
