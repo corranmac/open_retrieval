@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: open-retrieval
+Version: 0.1
+Summary: Retrieve semantically close text embeddings using a prebuilt FAISS index
+Home-page: https://github.com/orgs/LAION-AI/open-retrieval
+Author: Corran McCallum & Christoph Schuhmann
+Author-email: https://laion.ai/
+Project-URL: Bug Tracker, https://github.com/orgs/LAION-AI/open-retrieval
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
