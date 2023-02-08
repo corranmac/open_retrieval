@@ -12,7 +12,7 @@ numpy
 
 ## Get Started
 Method 1. 
-Use the command line (Requires reloading index each time):
+Use the command line (Requires loading data and models every time):
 !python main.py -h
 
 Method 2. 
