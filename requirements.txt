@@ -1,0 +1,7 @@
+faiss-gpu
+transformers
+fastparquet
+pandas
+numpy
+argparse
+nltk
