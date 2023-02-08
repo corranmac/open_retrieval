@@ -10,7 +10,7 @@ if not os.path.exists("wikipedia-3sentence-level-retrieval-index/knn.index"): #H
 
 index_path = "wikipedia-3sentence-level-retrieval-index/knn.index"
 dataset_path = "wikipedia-3sentence-level-retrieval-index/wikipedia-en-sentences.parquet"
-retriever_name = "facebook/contriever-msmarco"
+retriever = "facebook/contriever-msmarco"
 column = "text_snippet"
 extra_columns = ["position_in_source_text"]
 
@@ -20,7 +20,7 @@ json_path = "results.json"
 device = 'cuda' if torch.cuda.is_available() else 'cpu' 
 
 #Load retriever and its tokenizer
-retriever = Retriever(model_name=retriever_name, device=device)
+retriever = Retriever(model_name=retriever, device=device)
 
 #Load index and dataset
 data = DatasetIndexLoader(index=index_path,dataset=dataset_path, column=column)
