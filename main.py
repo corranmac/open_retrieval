@@ -138,7 +138,7 @@ if __name__ == '__main__':
         raise SystemExit("Please provide the name of the column that includes the text for the embeddings in your dataset")
 
     #Load retriever and its tokenizer
-    retriever = Retriever(model_name=retriever_name, device=device)
+    retriever = Retriever(model_name=retriever, device=device)
 
     #Load index and dataset
     data = DatasetIndexLoader(index=index_path,dataset=dataset_path, column=column)
